@@ -56,13 +56,13 @@ body {
     padding-bottom: 0.5em;
     top: 0px;
     z-index: 1;
-    width: 120vw;
+    width: 100vw;
     border-spacing: 2em;
     margin: auto;
 }
 
 #menubar {
-    max-width: 120vw;
+    max-width: 102vw;
     margin-left: -1%;
     margin-top: -1%;
 }
@@ -78,7 +78,6 @@ h1 {
 #groupnames {
     padding-right: 8vw;
     font-size: 0.9em;
-    margin-left: -20vw;
 }
 
 
