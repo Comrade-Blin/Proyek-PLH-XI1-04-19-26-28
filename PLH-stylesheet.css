@@ -3,7 +3,6 @@
     scroll-behavior: smooth;
 }
 
-
 div {
     width: auto;
     max-width: 615px;
@@ -17,27 +16,39 @@ p {
     text-align: justify;
 }
 
+.box4 p {
+    margin-left: 2em;
+    text-indent: -2em;
+}
+
+.pustakaText {
+    text-indent: -1.5em;
+    margin-left: 1.5em;
+}
+
+.horizontalRule {
+    background-color: rgba(70, 108, 75, 0.641);
+    height: 2px;
+    border: 0px;
+    width: 95%;
+}
+
 .bg {
     background-color: rgba(159, 204, 189, 0.677);
 }
 
-.box1 {
+.box1, .box3 {
     border-left: 20px solid;
     border-color: rgb(224, 255, 138);
 }
 
-.box2 {
+.box2, .box4 {
     border-right: 20px solid;
-    border-color: #67d75a;
-}
-
-.box3 {
-    border-left: 20px solid;
-    border-color: rgb(255, 249, 138);
+    border-color: rgb(224, 255, 138);
 }
 
 body {
-    background-image: url("img/plant.jpg");
+    background-image: url("../img/plant.jpg");
     background-size: cover;
     display: block;
     position: relative;
@@ -57,7 +68,7 @@ body {
     padding-bottom: 0.5em;
     top: 0px;
     z-index: 1;
-    width: 101vw;
+    width: 100vw;
     border-spacing: 2em;
     margin: auto;
 }
@@ -79,7 +90,6 @@ h1 {
 #groupnames {
     padding-right: 8vw;
     font-size: 0.9em;
-    margin-left: -1vw;
+    margin-left: 0vw;
 }
-
 
