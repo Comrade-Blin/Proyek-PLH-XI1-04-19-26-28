@@ -48,7 +48,7 @@ p {
 }
 
 body {
-    background-image: url("../img/plant.jpg");
+    background-image: url("./img/plant.jpg");
     background-size: cover;
     display: block;
     position: relative;
