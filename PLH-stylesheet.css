@@ -3,6 +3,7 @@
     scroll-behavior: smooth;
 }
 
+
 div {
     width: auto;
     max-width: 615px;
@@ -47,15 +48,21 @@ p {
     border-color: rgb(224, 255, 138);
 }
 
+.endBar {
+    text-align: center;
+    color: rgba(234, 255, 201, 0.804);
+    max-width: initial;
+}
+
 body {
     background-image: url("./img/plant.jpg");
     background-size: cover;
     display: block;
     position: relative;
-    max-width: 100vw;
+    margin: 0;
 }
 
-.top {
+.menuBar {
     color: rgb(70, 108, 75);
     background-color: rgb(213, 238, 196);
     text-align: center;
@@ -71,15 +78,10 @@ body {
     width: 100vw;
     border-spacing: 2em;
     margin: auto;
+    max-width: 100vw;
 }
 
-#menubar {
-    max-width: 102vw;
-    margin-left: -1%;
-    margin-top: -1%;
-}
-
-.menutext {
+.menuText {
     padding-inline: 1vw;
 }
 
@@ -87,9 +89,8 @@ h1 {
     margin-bottom: 5px;
 }
 
-#groupnames {
+#groupNames {
     padding-right: 8vw;
     font-size: 0.9em;
     margin-left: 0vw;
 }
-
