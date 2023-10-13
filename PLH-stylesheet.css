@@ -95,7 +95,7 @@ h1 {
     margin-left: 0vw;
 }
 
-table, th, td {
+.tabelKesimpulan, th, td {
     padding: 0.5em;
     text-align: center;
 }
