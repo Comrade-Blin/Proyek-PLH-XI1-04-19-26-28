@@ -94,3 +94,16 @@ h1 {
     font-size: 0.9em;
     margin-left: 0vw;
 }
+
+table, th, td {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.tableHeaderPrimary {
+    background-color: rgba(42, 95, 98, 0.462);
+}
+
+.tableHeaderSecondary {
+    background-color: rgba(72, 128, 119, 0.393);
+}
